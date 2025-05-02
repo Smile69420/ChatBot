@@ -1,0 +1,17 @@
+# .streamlit/config.toml
+
+[theme]
+# Primary color affects widgets like buttons, sliders etc. (Blue)
+primaryColor="#0d6efd"  # A standard Bootstrap blue, adjust hex code if needed
+
+# Main background color of the app (White)
+backgroundColor="#FFFFFF"
+
+# Background color for secondary elements like sidebar, code blocks, message backgrounds (Light Gray/Off-White)
+secondaryBackgroundColor="#F0F2F6" # A light gray, common choice
+
+# Default text color (Dark Gray/Black)
+textColor="#333333"
+
+# You can optionally specify a font
+# font="sans serif"
