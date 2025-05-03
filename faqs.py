@@ -192,7 +192,7 @@ def find_relevant_faqs(user_query, faqs, threshold=1):
         question_words = set(faq["question"].lower().split())
         query_words = set(user_query_lower.split())
         if question_words.intersection(query_words):
-             match_count += len(question_words.intersection(query_words))
+            match_count += len(question_words.intersection(query_words))
 
         if match_count >= threshold:
             relevant.append(faq)
